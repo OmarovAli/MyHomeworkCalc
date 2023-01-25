@@ -5,7 +5,7 @@ public class Main {
         int a = calc.plus.apply(1, 2); // a = 3
         int b = calc.minus.apply(1, 1);
         int abc = (b == 0) ? b + 1 : b;
-        int c = calc.devide.apply(a, abc);
+        calc.devide.apply(a, abc);
         calc.println.accept(abc);
     }
 }
